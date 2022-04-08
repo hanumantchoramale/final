@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testNGxmlStudy.ClassA">
+      <methods>
+      <include name="TC1"/>
+      <include name="TC2"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+  <test  name="Test">
+  <groups>
+  <run>
+  <include name="sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNGxmlGroup.Test1"/>
+      <class name="testNGxmlGroup.Test2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

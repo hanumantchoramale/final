@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test  name="Parallel1">
+    <classes>
+      <class name="testNGSeriesParallel.Test1"/>
+    </classes>
+  </test> <!-- Series -->
+  <test  name="Parallel2">
+    <classes>
+     <class name="testNGSeriesParallel.Test2"/>
+    </classes>
+  </test> <!-- Series -->
+  <test  name="Parallel3">
+    <classes>
+      <class name="testNGSeriesParallel.Test3"/>
+    </classes>
+  </test> <!-- Series -->
+</suite> <!-- Suite -->
